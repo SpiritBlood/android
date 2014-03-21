@@ -9,6 +9,10 @@
            fetch="https://github.com/ChameleonOS"
            review="review.chameleonos.org" />
 
+  <remote  name="slim"
+           fetch="https://github.com/slimroms"
+           review="gerrit.slimroms.net" />
+
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -488,5 +492,8 @@
   <!-- SaberMod toolchain -->
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sm-kk-mr1" />
   <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="sm-jb-mr2"/>
+
+  <!-- SlimRoms Recents Panel -->
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4"/>
 
 </manifest>
