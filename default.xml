@@ -359,7 +359,7 @@
   <project path="packages/apps/DSPManager" name="Nico60/packages_apps_DSPManager" revision="kitkat" />
   <project path="packages/apps/Email" name="Nico60/packages_apps_Email" revision="kitkat" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="Nico60/android_packages_apps_Gallery2" revision="kitkat" />
+  <project path="packages/apps/Gallery2" name="Nico60/packages_apps_Gallery2" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="Nico60/packages_apps_InCallUI" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
