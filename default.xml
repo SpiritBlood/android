@@ -364,7 +364,6 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="Nico60/packages_apps_InCallUI" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="Nico60/packages_apps_Mms" revision="kitkat" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
