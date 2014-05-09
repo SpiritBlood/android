@@ -379,9 +379,10 @@
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="Nico60/packages_apps_Stk" revision="kitkat" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
-  <project path="packages/apps/UnifiedEmail" name="Nico60/packages_apps_UnifiedEmail" revision="kitkat" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Torch" name="Nico60/packages_apps_Torch" revision="kitkat" />
   <project path="packages/apps/Trebuchet" name="Nico60/packages_apps_Trebuchet" revision="kitkat" />
+  <project path="packages/apps/UnifiedEmail" name="Nico60/packages_apps_UnifiedEmail" revision="kitkat" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
@@ -396,6 +397,7 @@
   <project path="packages/providers/MediaProvider" name="Nico60/packages_providers_MediaProvider" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="Nico60/packages_providers_TelephonyProvider" revision="kitkat" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
@@ -476,9 +478,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="vendor/cm" name="Nico60/vendor_cm" revision="kitkat" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="Nico60/android_packages_apps_ScreenRecorder" revision="kitkat" />
