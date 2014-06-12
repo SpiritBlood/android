@@ -507,5 +507,7 @@
   <project path="hardware/samsung" name="Nico60/hardware_samsung" revision="kitkat" />
   <project path="kernel/samsung/smdk4412" name="Nico60/kernel_samsung_smdk4412" revision="kitkat" />
   <project path="packages/apps/SamsungServiceMode" name="Nico60/packages_apps_SamsungServiceMode" revision="kitkat" />
+  <project path="vendor/samsung/galaxys2-common" name="Nico60/vendor_samsung_galaxys2-common" revision="master" />
+  <project path="vendor/samsung/i9100" name="Nico60/vendor_samsung_i9100" revision="master" />
 
 </manifest>
