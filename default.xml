@@ -505,5 +505,6 @@
   <project path="device/samsung/galaxys2-common" name="Nico60/device_samsung_galaxys2-common" revision="kitkat" />
   <project path="device/samsung/i9100" name="Nico60/device_samsung_i9100" revision="kitkat" />
   <project path="hardware/samsung" name="Nico60/hardware_samsung" revision="kitkat" />
+  <project path="kernel/samsung/smdk4412" name="Nico60/kernel_samsung_smdk4412" revision="kitkat" />
 
 </manifest>
