@@ -68,7 +68,7 @@
   <project path="external/apache-qp" name="CyanogenMod/android_external_apache-qp" />
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <project path="external/arduino" name="CyanogenMod/android_external_arduino" />
-  <project path="external/bash" name="Nico60/external_bash" />
+  <project path="external/bash" name="Nico60/external_bash" revision="kitkat" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/bluedroid" name="Nico60/external_bluetooth_bluedroid" revision="kitkat" />
@@ -124,7 +124,7 @@
   <project path="external/embunit" name="Nico60/external_embunit" revision="kitkat" />
   <project path="external/emma" name="CyanogenMod/android_external_emma" />
   <project path="external/esd" name="CyanogenMod/android_external_esd" />
-  <project path="external/exfat" name="Nico60/external_exfat" />
+  <project path="external/exfat" name="Nico60/external_exfat" revision="kitkat" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" groups="pdk" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />
@@ -133,7 +133,7 @@
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/freetype" name="Nico60/external_freetype" revision="kitkat" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
-  <project path="external/fuse" name="Nico60/external_fuse" />
+  <project path="external/fuse" name="Nico60/external_fuse" revision="kitkat" />
   <project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" />
   <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
