@@ -501,8 +501,9 @@
   <!-- SlimRoms Recents Panel -->
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4"/>
 
-  <!-- Device -->
+  <!-- Device i9100 -->
   <project path="device/samsung/galaxys2-common" name="Nico60/device_samsung_galaxys2-common" revision="kitkat" />
   <project path="device/samsung/i9100" name="Nico60/device_samsung_i9100" revision="kitkat" />
+  <project path="hardware/samsung" name="Nico60/hardware_samsung" revision="kitkat" />
 
 </manifest>
