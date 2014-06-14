@@ -491,8 +491,8 @@
   <project path="packages/apps/ScreenRecorder" name="Nico60/android_packages_apps_ScreenRecorder" revision="kitkat" />
 
   <!-- OmniRom -->
-  <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-4.4" />
-  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-4.4" />
+  <project path="packages/apps/OmniSwitch" name="Nico60/packages_apps_OmniSwitch" revision="kitkat" />
+  <project path="packages/apps/PerformanceControl" name="Nico60/packages_apps_PerformanceControl" revision="kitkat" />
 
   <!-- SaberMod toolchain -->
   <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8.4" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="sm_4.8.4" />
