@@ -331,16 +331,16 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="Nico60/hardware_libhardware" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="Nico60/hardware_libhardware_legacy" revision="kitkat" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
+  <project path="hardware/qcom/audio" name="Nico60/hardware_qcom_audio" revision="kitkat" />
+  <project path="hardware/qcom/audio-caf" name="Nico60/hardware_qcom_audio-caf" revision="kitkat" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
+  <project path="hardware/qcom/camera" name="Nico60/hardware_qcom_camera" revision="kitkat" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="Nico60/hardware_qcom_display-caf" revision="kitkat" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-caf" name="Nico60/hardware_qcom_media-caf" revision="kitkat" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
@@ -509,13 +509,9 @@
   <!-- SlimRoms Recents Panel -->
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4"/>
 
-  <!-- Device i9100 -->
-  <project path="device/samsung/galaxys2-common" name="Nico60/device_samsung_galaxys2-common" revision="kitkat" />
+  <!-- Devices -->
+  <project path="device/lge/hammerhead" name="Nico60/device_lge_hammerhead" revision="kitkat" />
+  <project path="device/samsung/d2lte" name="Nico60/device_samsung_d2lte" revision="kitkat" />
   <project path="device/samsung/i9100" name="Nico60/device_samsung_i9100" revision="kitkat" />
-  <project path="hardware/samsung" name="Nico60/hardware_samsung" revision="kitkat" />
-  <project path="kernel/samsung/smdk4412" name="Nico60/kernel_samsung_smdk4412" revision="kitkat" />
-  <project path="packages/apps/SamsungServiceMode" name="Nico60/packages_apps_SamsungServiceMode" revision="kitkat" />
-  <project path="vendor/samsung/galaxys2-common" name="Nico60/vendor_samsung_galaxys2-common" revision="master" />
-  <project path="vendor/samsung/i9100" name="Nico60/vendor_samsung_i9100" revision="master" />
 
 </manifest>
