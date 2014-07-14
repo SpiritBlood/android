@@ -5,6 +5,15 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+  <remote  name="no"
+           fetch="https://github.com/Nico60/" />
+
+  <remote  name="gh"
+           fetch="https://github.com/" />
+
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+
   <remote  name="slim"
            fetch="https://github.com/slimroms"
            review="gerrit.slimroms.net" />
