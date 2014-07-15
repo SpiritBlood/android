@@ -518,9 +518,4 @@
   <!-- SlimRoms Recents Panel -->
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4"/>
 
-  <!-- Devices -->
-  <project path="device/lge/hammerhead" name="Nico60/device_lge_hammerhead" revision="kitkat" />
-  <project path="device/samsung/d2lte" name="Nico60/device_samsung_d2lte" revision="kitkat" />
-  <project path="device/samsung/i9100" name="Nico60/device_samsung_i9100" revision="kitkat" />
-
 </manifest>
