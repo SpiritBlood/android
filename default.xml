@@ -504,6 +504,8 @@
   <project path="vendor/cm" name="Nico60/vendor_cm" revision="kitkat" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
+  <!-- ############################## The spirit is here ############################## -->
+
   <!-- ChameleonOS -->
   <project path="packages/apps/ScreenRecorder" name="Nico60/android_packages_apps_ScreenRecorder" revision="kitkat" />
 
@@ -512,10 +514,13 @@
   <project path="packages/apps/PerformanceControl" name="Nico60/packages_apps_PerformanceControl" revision="kitkat" />
 
   <!-- SaberMod toolchain -->
+  <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" revision="sm-jb-mr2"/>
+  <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" revision="sm_4.9.1"/>
   <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8.4" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="sm_4.8.4" />
-  <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="sm_4.9.1"/>
 
   <!-- SlimRoms Recents Panel -->
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4"/>
+
+  <!-- ############################## The spirit is here ############################## -->
 
 </manifest>
