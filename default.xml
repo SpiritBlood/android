@@ -38,45 +38,48 @@
            sync-j="4" />
 
 <!-- Spirit-Blood Repos Start -->
-  <project path="build" name="Spirit-Blood/build" revision="kitkat" >
+  <project path="build" name="build" remote="sb" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="Spirit-Blood/android" remote="github" revision="kitkat" />
-  <project path="development" name="Spirit-Blood/development" revision="kitkat" />
-  <project path="frameworks/av" name="Spirit-Blood/frameworks_av" revision="kitkat" />
-  <project path="frameworks/base" name="Spirit-Blood/frameworks_base" revision="kitkat" />
-  <project path="frameworks/native" name="Spirit-Blood/frameworks_native"  revision="kitkat" />
-  <project path="frameworks/opt/telephony" name="Spirit-Blood/frameworks_opt_telephony" revision="kitkat" />
-  <project path="packages/apps/Browser" name="Spirit-Blood/packages_apps_Browser" revision="kitkat" />
-  <project path="packages/apps/Calculator" name="Spirit-Blood/packages_apps_Calculator" revision="kitkat" />
-  <project path="packages/apps/Calendar" name="Spirit-Blood/packages_apps_Calendar" revision="kitkat" />
-  <project path="packages/apps/Camera2" name="Spirit-Blood/packages_apps_Camera2" revision="kitkat" />
-  <project path="packages/apps/CellBroadcastReceiver" name="Spirit-Blood/packages_apps_CellBroadcastReceiver" revision="kitkat" />
-  <project path="packages/apps/CMAccount" name="Spirit-Blood/packages_apps_CMAccount" revision="kitkat" />
-  <project path="packages/apps/Contacts" name="Spirit-Blood/packages_apps_Contacts" revision="kitkat" />
-  <project path="packages/apps/ContactsCommon" name="Spirit-Blood/packages_apps_ContactsCommon" revision="kitkat" />
-  <project path="packages/apps/Dialer" name="Spirit-Blood/packages_apps_Dialer" revision="kitkat" />
-  <project path="packages/apps/DSPManager" name="Spirit-Blood/packages_apps_DSPManager" revision="kitkat" />
-  <project path="packages/apps/Email" name="Spirit-Blood/packages_apps_Email" revision="kitkat" />
-  <project path="packages/apps/EOSWeather" name="Spirit-Blood/packages_apps_EOSWeather" revision="kitkat" />
-  <project path="packages/apps/Gallery2" name="Spirit-Blood/packages_apps_Gallery2" revision="kitkat" />
-  <project path="packages/apps/InCallUI" name="Spirit-Blood/packages_apps_InCallUI" revision="kitkat" />
-  <project path="packages/apps/KernelTweaker" name="Spirit-Blood/packages_apps_KernelTweaker" revision="kitkat" />
-  <project path="packages/apps/Mms" name="Spirit-Blood/packages_apps_Mms" revision="kitkat" />
-  <project path="packages/apps/PackageInstaller" name="Spirit-Blood/packages_apps_PackageInstaller" revision="kitkat" />
-  <project path="packages/apps/Settings" name="Spirit-Blood/packages_apps_Settings" revision="kitkat" />
-  <project path="packages/apps/Torch" name="Spirit-Blood/packages_apps_Torch" revision="kitkat" />
-  <project path="packages/apps/Stk" name="Spirit-Blood/packages_apps_Stk" revision="kitkat" />
-  <project path="packages/apps/UnifiedEmail" name="Spirit-Blood/packages_apps_UnifiedEmail" revision="kitkat" />
-  <project path="packages/inputmethods/LatinIME" name="Spirit-Blood/packages_inputmethods_LatinIME" revision="kitkat" />
-  <project path="packages/providers/ContactsProvider" name="Spirit-Blood/packages_providers_ContactsProvider" revision="kitkat" />
-  <project path="packages/providers/DownloadProvider" name="Spirit-Blood/packages_providers_DownloadProvider" revision="kitkat" />
-  <project path="packages/providers/MediaProvider" name="Spirit-Blood/packages_providers_MediaProvider" revision="kitkat" />
-  <project path="packages/providers/TelephonyProvider" name="Spirit-Blood/packages_providers_TelephonyProvider" revision="kitkat" />
-  <project path="packages/services/Telephony" name="Spirit-Blood/packages_services_Telephony" revision="kitkat" />
-  <project path="system/core" name="Spirit-Blood/system_core" revision="kitkat" />
-  <project path="system/media" name="Spirit-Blood/system_media" revision="kitkat" />
-  <project path="vendor/cm" name="Spirit-Blood/vendor_cm" revision="kitkat" />
+  <project path="android" name="android" remote="sb" remote="sb" revision="kitkat" />
+  <project path="development" name="development" remote="sb" revision="kitkat" />
+  <project path="frameworks/av" name="frameworks_av" remote="sb" revision="kitkat" />
+  <project path="frameworks/base" name="frameworks_base" remote="sb" revision="kitkat" />
+  <project path="frameworks/native" name="frameworks_native"  remote="sb" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="sb" revision="kitkat" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="sb" revision="kitkat" />
+  <project path="packages/apps/CMAccount" name="packages_apps_CMAccount" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sb" revision="kitkat" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sb" revision="kitkat" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="sb" revision="kitkat" />
+  <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="sb" revision="kitkat" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="sb" revision="kitkat" />
+  <project path="packages/apps/KernelTweaker" name="packages_apps_KernelTweaker" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="sb" revision="kitkat" />
+  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="sb" revision="kitkat" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sb" revision="kitkat" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="sb" revision="kitkat" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="sb" revision="kitkat" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sb" revision="kitkat" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="sb" revision="kitkat" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sb" revision="kitkat" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="sb" revision="kitkat" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="sb" revision="kitkat" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sb" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="sb" revision="kitkat" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="sb" revision="kitkat" />
+  <project path="system/core" name="system_core" remote="sb" revision="kitkat" />
+  <project path="system/media" name="system_media" remote="sb" revision="kitkat" />
+  <project path="vendor/cm" name="vendor_cm" remote="sb" revision="kitkat" />
   <!-- Spirit-Blood Repos End -->
 
   <project path="abi/cpp" name="Nico60/platform_abi_cpp" revision="kitkat" />
@@ -511,13 +514,6 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
   <!-- ############################## The spirit is here ############################## -->
-
-  <!-- ChameleonOS -->
-  <project path="packages/apps/ScreenRecorder" name="Spirit-Blood/android_packages_apps_ScreenRecorder" revision="kitkat" />
-
-  <!-- OmniRom -->
-  <project path="packages/apps/OmniSwitch" name="Spirit-Blood/packages_apps_OmniSwitch" revision="kitkat" />
-  <project path="packages/apps/PerformanceControl" name="Spirit-Blood/packages_apps_PerformanceControl" revision="kitkat" />
 
   <!-- SaberMod toolchain -->
   <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" revision="sm-jb-mr2"/>
