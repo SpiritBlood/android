@@ -58,8 +58,10 @@
   <project path="packages/apps/Dialer" name="Spirit-Blood/packages_apps_Dialer" revision="kitkat" />
   <project path="packages/apps/DSPManager" name="Spirit-Blood/packages_apps_DSPManager" revision="kitkat" />
   <project path="packages/apps/Email" name="Spirit-Blood/packages_apps_Email" revision="kitkat" />
+  <project path="packages/apps/EOSWeather" name="Spirit-Blood/packages_apps_EOSWeather" revision="kitkat" />
   <project path="packages/apps/Gallery2" name="Spirit-Blood/packages_apps_Gallery2" revision="kitkat" />
   <project path="packages/apps/InCallUI" name="Spirit-Blood/packages_apps_InCallUI" revision="kitkat" />
+  <project path="packages/apps/KernelTweaker" name="Spirit-Blood/packages_apps_KernelTweaker" revision="kitkat" />
   <project path="packages/apps/Mms" name="Spirit-Blood/packages_apps_Mms" revision="kitkat" />
   <project path="packages/apps/PackageInstaller" name="Spirit-Blood/packages_apps_PackageInstaller" revision="kitkat" />
   <project path="packages/apps/Settings" name="Spirit-Blood/packages_apps_Settings" revision="kitkat" />
