@@ -41,7 +41,7 @@
   <project path="build" name="build" remote="sb" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="sb" remote="sb" revision="kitkat" />
+  <project path="android" name="android" remote="sb" revision="kitkat" />
   <project path="development" name="development" remote="sb" revision="kitkat" />
   <project path="frameworks/av" name="frameworks_av" remote="sb" revision="kitkat" />
   <project path="frameworks/base" name="frameworks_base" remote="sb" revision="kitkat" />
