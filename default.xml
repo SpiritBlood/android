@@ -173,7 +173,7 @@
   <project path="external/exfat" name="Nico60/external_exfat" revision="kitkat" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" groups="pdk" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />  <project path="packages/apps/InCallUI" name="Nico60/packages_apps_InCallUI" revision="kitkat" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />
   <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
