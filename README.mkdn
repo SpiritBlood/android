@@ -3,7 +3,7 @@ SpiritRom
 
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/Nico60/android.git -b kitkat
+    repo init -u git://github.com/Spirit-Blood/android.git -b kitkat
 
 Then to sync up:
 
