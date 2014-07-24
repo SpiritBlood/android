@@ -78,7 +78,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="sb" revision="kitkat" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="sb" revision="kitkat" />
   <project path="system/core" name="system_core" remote="sb" revision="kitkat" />
-  <project path="system/media" name="system_media" remote="sb" revision="kitkat" />
+  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="vendor/cm" name="vendor_cm" remote="sb" revision="kitkat" />
   <!-- Spirit-Blood Repos End -->
 
