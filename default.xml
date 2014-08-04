@@ -56,7 +56,6 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sb" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sb" revision="kitkat" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sb" revision="kitkat" />
-  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="sb" revision="kitkat" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="sb" revision="kitkat" />
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="sb" revision="kitkat" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="sb" revision="kitkat" />
