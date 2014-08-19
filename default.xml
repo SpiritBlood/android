@@ -369,7 +369,7 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="Nico60/hardware_qcom_camera" revision="kitkat" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="Nico60/hardware_qcom_display-caf" revision="kitkat" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="sb" revision="kitkat" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="Nico60/hardware_qcom_media" revision="kitkat" />
