@@ -9,7 +9,7 @@
            fetch="https://github.com/Nico60/" />
            
   <remote  name="sb"
-           fetch="https://github.com/Spirit-Blood/" />
+           fetch="https://github.com/SpiritBlood/" />
 
   <remote  name="gh"
            fetch="https://github.com/" />
@@ -37,7 +37,7 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- Spirit-Blood Repos Start -->
+<!-- SpiritBlood Repos Start -->
   <project path="build" name="build" remote="sb" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -79,7 +79,7 @@
   <project path="system/core" name="system_core" remote="sb" revision="kitkat" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="vendor/cm" name="vendor_cm" remote="sb" revision="kitkat" />
-  <!-- Spirit-Blood Repos End -->
+  <!-- SpiritBlood Repos End -->
 
   <project path="abi/cpp" name="Nico60/platform_abi_cpp" revision="kitkat" />
   <project path="art" name="Nico60/art" revision="kitkat" />
