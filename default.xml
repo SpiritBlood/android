@@ -502,9 +502,14 @@
   <!-- ############################## The spirit is here ############################## -->
 
   <!-- SaberMod toolchain -->
-  <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" revision="sm-jb-mr2"/>
-  <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" revision="sm_4.9.1"/>
-  <project name="Nico60/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8.4" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="sm_4.8.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-sm" name="UBERUTILS/arm-linux-androideabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="UBERUTILS/arm-linux-androideabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10-sm" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
 
   <!-- SlimRoms Recents Panel -->
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4"/>
