@@ -46,7 +46,8 @@
   <project path="frameworks/av" name="frameworks_av" remote="sb" revision="kitkat" />
   <project path="frameworks/base" name="frameworks_base" remote="sb" revision="kitkat" />
   <project path="frameworks/native" name="frameworks_native"  remote="sb" revision="kitkat" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sb" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="sb" revision="kitkat" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sb" revision="kitkat" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sb" revision="kitkat" />
@@ -74,7 +75,7 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="sb" revision="kitkat" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="sb" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sb" revision="kitkat" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="sb" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="sb" revision="kitkat" />
   <project path="system/core" name="system_core" remote="sb" revision="kitkat" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
