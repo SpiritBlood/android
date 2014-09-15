@@ -1,4 +1,4 @@
-SpiritRom
+SpiritBlood Rom
 ===========
 
 To initialize your local repository, use a command like this:
