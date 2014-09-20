@@ -53,7 +53,7 @@
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sb" revision="kitkat" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sb" revision="kitkat" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="sb" revision="kitkat" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="sb" revision="kitkat" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CMAccount" name="packages_apps_CMAccount" remote="sb" revision="kitkat" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sb" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sb" revision="kitkat" />
