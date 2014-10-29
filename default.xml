@@ -38,6 +38,7 @@
            sync-j="4" />
 
 <!-- SpiritBlood Repos Start -->
+  <project path="bionic" name="bionic" remote="sb" revision="kitkat" />
   <project path="build" name="build" remote="sb" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -48,6 +49,9 @@
   <project path="frameworks/native" name="frameworks_native"  remote="sb" revision="kitkat" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" />
+  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="sb" revision="kitkat" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="sb" revision="kitkat" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="sb" revision="kitkat" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sb" revision="kitkat" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sb" revision="kitkat" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sb" revision="kitkat" />
@@ -84,7 +88,6 @@
 
   <project path="abi/cpp" name="Nico60/platform_abi_cpp" revision="kitkat" />
   <project path="art" name="Nico60/art" revision="kitkat" />
-  <project path="bionic" name="Nico60/bionic" revision="kitkat" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
@@ -367,15 +370,12 @@
   <project path="hardware/libhardware" name="Nico60/hardware_libhardware" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="Nico60/hardware_libhardware_legacy" revision="kitkat" />
   <project path="hardware/qcom/audio" name="Nico60/hardware_qcom_audio" revision="kitkat" />
-  <project path="hardware/qcom/audio-caf" name="Nico60/hardware_qcom_audio-caf" revision="kitkat" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="Nico60/hardware_qcom_camera" revision="kitkat" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="Nico60/hardware_qcom_display-caf" revision="kitkat" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="Nico60/hardware_qcom_media" revision="kitkat" />
-  <project path="hardware/qcom/media-caf" name="Nico60/hardware_qcom_media-caf" revision="kitkat" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
