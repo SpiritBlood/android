@@ -8,4 +8,20 @@ To initialize your local repository, use a command like this:
 Then to sync up:
 
     repo sync
+    
+***
+
+Building
+--------
+
+After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+
+    . build/envsetup.sh && brunch hammerhead
+
+
+You can also build (and see how long it took) for specific devices like this:
+
+    . build/envsetup.sh && time brunch hammerhead
+
+Remember to `make clean` every now and then!
 
