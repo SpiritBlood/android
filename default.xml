@@ -322,6 +322,7 @@
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" groups="pdk" />
+  <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
   <project path="external/v8" name="Nico60/external_v8" revision="kitkat" />
   <project path="external/valgrind" name="Nico60/external_valgrind" revision="kitkat" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
@@ -334,6 +335,7 @@
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/xmp_toolkit" name="CyanogenMod/android_external_xmp_toolkit" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
+  <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
